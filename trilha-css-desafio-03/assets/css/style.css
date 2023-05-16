@@ -1,0 +1,125 @@
+@import url('reset.css');
+
+.containerf1 {
+    width: 147px;
+    height: 40px;
+
+    position: absolute;
+
+    display: flex;
+    gap: 23px;
+    align-items: baseline;
+    flex-flow: row wrap;
+}
+
+.containerf2 {
+    width: 590px;
+    height: 40px;
+
+    position: absolute;
+
+    left: 40rem;
+
+    display: flex;
+    gap: 7px;
+    align-items: baseline;
+    flex-flow: row wrap;
+}
+
+.containerf3 { 
+    width: 139px;
+    height: 40px;
+
+    position: absolute;
+    left: 96rem;
+
+    display: flex;
+    gap: 2px;
+    align-items: baseline;
+    flex-flow: row wrap;
+}
+
+.containerf1 .item {
+    flex: auto;
+}
+
+.containerf2 .item {
+    flex: 1;
+}
+
+.containerf3 .item {
+    flex: auto;
+}
+
+#pesquisa {
+box-sizing: border-box;
+
+width: 348px;
+height: 31px;
+
+background: #FFFFFF;
+border: 1px solid #030303bb;
+
+}
+
+#foto {
+    width: 30px;
+    border-radius: 50%;
+}
+
+#pesquisalogo {
+    height: 27px;
+}
+
+#logoyoutube {
+    height: 22px;
+}
+
+.containersubmenu {
+    position: absolute;
+    bottom: 7rem;
+    left: 1rem;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+
+    height: 80vh;
+    width: 218px;
+}
+
+.item {
+    display: inherit;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.containergrid {
+    display: grid;
+    position: absolute;
+    left: 20rem;
+    bottom: 6rem;
+    height: 44rem;
+    width: 79rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 35px;
+}
+
+.itemvideos p{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.itemvideos small {
+    position: relative;
+    left: 55px;
+}
+
+.itemdesc {
+    display: flex;
+    gap: 13px;
+    width: 17rem;
+    align-items: center;
+}
